@@ -3,7 +3,7 @@
 ## vsc 터미널에서 node project 실행하는 방법 
 
 --------get-post-study(branch)의 내용 --------
-### 터미널에서 
+#### 터미널에서 
 #### node init : 노드 프로젝트 시작
 #### nodeserver : 노드 기반 프로젝트를 하기 위한 기본 설정 파일(package.json) 만들어짐. 
 #### npm install express : 노드 기반 웹 서버를 제공하는 프레임워크 express install. 
@@ -12,7 +12,8 @@
 #### npm install body-parser : request와 response 사이에서 파싱을 해주는 미들웨어. request의 body 부분을 파싱해줌. 
 #### npm install ejs : ejs 사용할 수 있게 해줌 
 --------get-post-study(branch)의 내용 --------
-
+#
 --------mysql-connection(branch)의 내용--------
 #### npm install mysql : mysql 모듈 설치
 --------mysql-connection(branch)의 내용--------
+#
