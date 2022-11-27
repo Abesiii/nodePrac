@@ -8,10 +8,12 @@ var path = require('path');         //상대경로로 편리하게 이동할 수
 var main = require('./main/main');
 var email = require('./email/email');
 var form = require('./form/form');
+var join = require('./join/join');
 
 router.use('/main', main);   //url에서 main으로 들어오면 main에 대한 라우터 사용 
 router.use('/email', email);   //url에서 email로 들어오면 email에 대한 라우터 사용 
-router.use('/form', form);   //url에서 email로 들어오면 email에 대한 라우터 사용 
+router.use('/form', form);   //url에서 form으로 들어오면 form에 대한 라우터 사용 
+router.use('/join', join);   //url에서 join으로 들어오면 join에 대한 라우터 사용 
 
 router.get('/', function(req, res){         //url에 /로 요청 들어오면 
   res.sendFile(path.join(__dirname, "../public/main.html"));
