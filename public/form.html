@@ -34,7 +34,7 @@
         var result = JSON.parse(xhr.responseText);            //response된 값
         var resultDiv = document.querySelector('.result');    
         if(result.result === 'ok'){
-          resultDiv.innerHTML = result.email;
+          resultDiv.innerHTML = result.name;
         }else{
           resultDiv.innerHTML = "ajax를 이용하여 통신 불가. ";
         }
