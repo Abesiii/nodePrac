@@ -1,7 +1,7 @@
 # nodePrac
 
 ## vsc 터미널에서 node project 실행하는 방법 
-<br>
+
 --------get-post-study(branch)의 내용 --------
 ### 터미널에서 
 #### node init : 노드 프로젝트 시작
@@ -12,7 +12,7 @@
 #### npm install body-parser : request와 response 사이에서 파싱을 해주는 미들웨어. request의 body 부분을 파싱해줌. 
 #### npm install ejs : ejs 사용할 수 있게 해줌 
 --------get-post-study(branch)의 내용 --------
-<br><br>
+
 --------mysql-connection(branch)의 내용--------
 #### npm install mysql : mysql 모듈 설치
 --------mysql-connection(branch)의 내용--------
